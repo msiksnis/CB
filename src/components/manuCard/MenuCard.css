@@ -1,0 +1,62 @@
+.menuCard {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, s0.75); */
+  /* transition: transform 100ms ease-in; */
+  width: 400px;
+  cursor: pointer;
+  background-color: rgb(202, 209, 214);
+  margin: 25px;
+  font-family: "Grandstander", cursive;
+}
+
+.menuCard:hover {
+  /* transform: scale(1.01); */
+  background-color: aliceblue;
+}
+
+.menuCard > img {
+  object-fit: fill;
+  height: 350px;
+  width: 100%;
+}
+
+.menuCard__info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 20px;
+  border: 1;
+}
+
+.menuCard__info > h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menuCard__info > h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.menuCard__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuCard__order {
+  border-radius: 20px;
+  border: 3px solid;
+  align-items: center;
+  padding: 3px 20px 0 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.menuCard__order:hover {
+  background-color: rgb(202, 209, 214);
+}

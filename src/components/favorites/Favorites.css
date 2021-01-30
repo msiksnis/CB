@@ -1,0 +1,43 @@
+.favorites {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1400px;
+  min-height: 1000px;
+  /* border: 1px solid tomato; */
+}
+
+.favorites__title {
+  color: aliceblue;
+  font-family: "Grandstander", cursive;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 100px 0 20px 0;
+  margin-inline: auto;
+}
+
+.favorites__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.favorites__openMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.favorites__fullMenu {
+  color: rgb(202, 209, 214);
+  /* margin-bottom: 50px; */
+  font-family: "Grandstander", cursive;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 30px 50px 50px 50px;
+  width: 222px;
+}
+
+.favorites__fullMenu:hover {
+  color: aliceblue;
+}
